@@ -1,0 +1,101 @@
+.nav-container {
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    background: rgb(11, 157, 165);
+    z-index: 50;
+}
+
+.nav-container .logo {
+    font-weight: bolder;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.nav-container .logo span {
+    color: rgb(184, 240, 255);
+}
+
+.nav-container .navbars ul {
+    display: flex;
+    font-size: 1.6rem;
+    list-style: none;
+    gap: 0rem;
+}
+
+.nav-container .navbars ul a {
+    padding: 1rem;
+    color: rgb(242, 242, 242);
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#menu-btn {
+    color: #ffffff;
+    cursor: pointer;
+    display: none;
+}
+
+/*  header media queries starts  */
+
+/*  for 991 pixel screen  */
+@media (max-width: 991px) {
+    .header {
+        padding: 0 2rem;
+    }
+}
+
+/*  for than 768 pixel screen  */
+@media (max-width: 768px) {
+
+    .nav-container .navbar a {
+        display: block;
+        font-size: 2rem;
+    }
+
+    .header a {
+        padding-bottom: .2rem;
+        margin-left: -3rem;
+    }
+
+    .nav-container .navbars ul {
+        padding-left: 5rem;
+        margin-left: -10rem;
+    }
+
+    .nav-container .navbars ul a {
+        font-size: 1.5rem;
+    }
+}
+
+/*  less than 450 pixel screen  */
+
+@media (max-width: 450px) {
+    .header {
+        padding-bottom: 1.5rem;
+    }
+
+    #menu-btn {
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        color: #fff;
+        padding-top: 1rem;
+        padding-left: 5rem;
+    }
+
+    /* .nav-container .navbars ul #menu-btn svg {} */
+
+    .nav-container .navbars ul a {
+        display: none;
+    }
+}
+
+/*  header media queries end  */
