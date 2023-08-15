@@ -13,12 +13,23 @@
 }
 
 .nav-container .logo {
-    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-container .logo img {
+    width: 35px;
+    height: 35px;
+    filter: brightness(180%);
+}
+
+.nav-container .logo-name {
     color: white;
     font-size: 1.8rem;
 }
 
-.nav-container .logo span {
+.nav-container .logo-name span {
     color: rgb(184, 240, 255);
 }
 

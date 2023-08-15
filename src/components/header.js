@@ -4,9 +4,12 @@ import "../components/header.css";
 const Header = () => {
     return (
         <div className="nav-container">
-            <header className='header'>
-                <a href='#' className='logo'>HAPPY <span>CURES</span> CLINIC</a>
-            </header>
+            <div className="logo">
+                <img src="https://res.cloudinary.com/djdblxcxt/image/upload/v1692075742/happy%20cure%20clinic/medical-logo_fh2nih.png" />
+                <div className='header'>
+                    <a href='#' className='logo-name'>HAPPY <span>CURES</span> CLINIC</a>
+                </div>
+            </div>
             <nav className="navbars">
                 <ul>
                     <div id='menu-btn'>
