@@ -7,7 +7,7 @@ const Card = ({ t1, title, t2, btn }) => {
             <p>{t1}</p>
             <h1>{title}</h1>
             <p>{t2}</p>
-            <a className='btn'>{btn}</a>
+            <a href='/' className='btn'>{btn}</a>
         </div>
     );
 }
@@ -21,7 +21,7 @@ const Cards = ({ text1, title, text2, text3, text4, t1, t2, t3, btn }) => {
                 <p>{text2}<span>{t1}</span></p>
                 <p>{text3}<span>{t2}</span></p>
                 <p>{text4}<span>{t3}</span></p>
-                <a className='btn'>{btn}</a>
+                <a href='/' className='btn'>{btn}</a>
             </div>
         </div>
     );
@@ -51,7 +51,6 @@ const Testimonials = ({ img, title, author, msg }) => {
             <div className='msg'>
                 <p>{msg}</p>
             </div>
-            {/* </div> */}
         </div>
     );
 }
@@ -86,7 +85,7 @@ const Home = () => {
             <div className='card-container'>
                 <Card t1="Appointment" title="Online Appointment" t2="Get all time support for emergency. We have introduced the principle of family medicine" btn="Make an Appointment" />
                 <Cards text1="Timing Schedule" title="Working Hours" text2="Mon - Wed" t1="8:00am - 4:00pm" text3="Thur - Frid" t2="9:00am - 4:00pm" text4="Sat - Sun" t3="10:00am - 4:00pm" btn="" />
-                <Card t1="24 Hours Service" title="Emergency Cases" t2="Get all time support for emergency. We have introduced the principle of family medicine" btn="Customer Care" />
+                <Card t1="24 Hours Service" title="Emergency Cases" t2="Get all time support for emergency. We have introduced the principle of family medicine" btn="Call Customer Care" />
             </div>
 
             <div className='award-container'>
