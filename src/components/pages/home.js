@@ -57,16 +57,10 @@ const Testimonials = ({ img, title, author, msg }) => {
 
 const Links = ({ img1, img2, img3 }) => {
     return (
-        <div className='links'>
-            <div className='social-links'>
-                <img src={img1} />
-                <div>
-                    <img src={img2} />
-                </div>
-                <div>
-                    <img src={img3} />
-                </div>
-            </div>
+        <div className='social-links'>
+            <img src={img1} />
+            <img src={img2} />
+            <img src={img3} />
         </div>
     );
 }
@@ -84,8 +78,8 @@ const Home = () => {
 
             <div className='card-container'>
                 <Card t1="Appointment" title="Online Appointment" t2="Get all time support for emergency. We have introduced the principle of family medicine" btn="Make an Appointment" />
-                <Cards text1="Timing Schedule" title="Working Hours" text2="Mon - Wed" t1="8:00am - 4:00pm" text3="Thur - Frid" t2="9:00am - 4:00pm" text4="Sat - Sun" t3="10:00am - 4:00pm" btn="" />
-                <Card t1="24 Hours Service" title="Emergency Cases" t2="Get all time support for emergency. We have introduced the principle of family medicine" btn="Call Customer Care" />
+                <Cards text1="Timing Schedule" title="Working Hours" text2="Mon - Wed" t1="8:00am - 4:00pm" text3="Thur - Frid" t2="9:00am - 4:00pm" text4="Sat - Sun" t3="10:00am - 4:00pm" />
+                <Card t1="24 Hours Service" title="Emergency Cases" t2="For your safety and the safety of others, please adhere to hospital staff instructions." btn="Call Customer Care" />
             </div>
 
             <div className='award-container'>
@@ -122,9 +116,7 @@ const Home = () => {
                 <div className='links'>
                     <h2>Social Links</h2>
                     <div className='social-links'>
-                        <Links img1={'https://res.cloudinary.com/djdblxcxt/image/upload/v1692073613/happy%20cure%20clinic/Facebook-Logo_mq0tri.png'} />
-                        <Links img2={'https://res.cloudinary.com/djdblxcxt/image/upload/v1692074960/happy%20cure%20clinic/Instagram-Logo_hll6zj.png'} />
-                        <Links img3={'https://res.cloudinary.com/djdblxcxt/image/upload/v1692074970/happy%20cure%20clinic/Linkedin-Logo_blammh.png'} />
+                        <Links img1={'https://res.cloudinary.com/djdblxcxt/image/upload/v1692073613/happy%20cure%20clinic/Facebook-Logo_mq0tri.png'} img2={'https://res.cloudinary.com/djdblxcxt/image/upload/v1692074960/happy%20cure%20clinic/Instagram-Logo_hll6zj.png'} img3={'https://res.cloudinary.com/djdblxcxt/image/upload/v1692074970/happy%20cure%20clinic/Linkedin-Logo_blammh.png'} />
                     </div>
                 </div>
 
