@@ -245,7 +245,7 @@ section .background a {
 .footer-container {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 10rem;
+    padding-top: 8rem;
     padding-bottom: 5rem;
 }
 
