@@ -6,7 +6,6 @@ import Blogs from "./components/pages/blogs"
 import Gallery from "./components/pages/gallery"
 import Appointment from "./components/pages/appointment"
 import Service from "./components/pages/service"
-import Contact from "./components/pages/contact"
 
 const App = () => {
 
