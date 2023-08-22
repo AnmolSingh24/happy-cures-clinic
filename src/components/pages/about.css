@@ -1,0 +1,31 @@
+/*  about section starts  */
+.about-container {
+    padding: 10rem 0 3rem 0;
+    text-align: center;
+}
+
+.about-container .about-content {
+    padding: 2rem;
+}
+
+.about-container .about-content h1 {
+    font-size: 2.5rem;
+}
+
+.about-container .about-content p {
+    font-size: 1.5rem;
+    line-height: 2;
+    padding: 2rem 30rem;
+}
+
+.about-container .about-content .tests {
+    padding-top: 3rem;
+}
+
+.about-container .tests b {
+    padding-top: 1rem;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+/*  about section ends  */
