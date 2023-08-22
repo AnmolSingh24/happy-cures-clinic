@@ -1,10 +1,23 @@
 /*  form starts  */
+.appoint-img {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.appoint-img .image img {
+    width: 400px;
+    height: 550px;
+    margin-top: 11rem;
+    border-radius: 10px;
+}
+
 .form {
     background-color: #fff;
     height: 550px;
     width: 500px;
-    margin: 11rem auto;
-
+    margin: 11rem 0;
+    border-radius: 10px;
 }
 
 .form h1 {
@@ -35,6 +48,12 @@ button {
     font-size: 1.8rem;
     border-radius: 5px;
     margin: 1.5rem 15rem;
+}
+
+button:hover{
+    cursor: pointer;
+    background: rgb(42, 200, 208);
+    transition: .3s;
 }
 
 /*  form ends  */
